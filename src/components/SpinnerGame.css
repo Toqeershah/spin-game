@@ -1,0 +1,64 @@
+body {
+  background-color: rgb(88, 131, 224);
+}
+.spinner-container {
+  background-color: #289c66;
+  margin-left: 160px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 5px solid #333;
+  overflow: hidden;
+  transition: transform 3s ease-out;
+}
+
+.spinning {
+  animation: spin 3s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.spinner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  border-radius: 50%;
+}
+
+.prize-0 {
+  background-color: #ffcc00; /* Yellow */
+}
+
+.prize-1 {
+  background-color: #66ccff; /* Blue */
+}
+
+.prize-2 {
+  background-color: #ff6666; /* Red */
+}
+
+.prize-3 {
+  background-color: #99ff66; /* Green */
+}
+
+.prize-4 {
+  background-color: #ff99cc; /* Pink */
+}
+
+.prize-5 {
+  background-color: #cccccc; /* Gray */
+}
