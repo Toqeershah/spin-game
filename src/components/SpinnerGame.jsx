@@ -25,7 +25,7 @@ const SpinnerGame = () => {
     <div className="container">
       <div className="row justify-content-center mt-5">
         <div className="col-md-6 text-center">
-          <h1>Spinner Game</h1>
+          <h1 className='text-white'>Spinner Game</h1>
           <div className={`spinner-container ${isSpinning ? 'spinning' : ''}`}>
             <div className={`spinner ${prize !== null ? `prize-${prize}` : ''}`}></div>
           </div>
@@ -37,7 +37,7 @@ const SpinnerGame = () => {
             {isSpinning ? 'Spinning...' : 'Spin the Wheel'}
           </button>
           {prize !== null && (
-            <div className="mt-3">
+            <div className="mt-3 text-white">
               <h3>Congratulations! You won:</h3>
               <p>{`Prize ${prize + 1}`}</p>
             </div>

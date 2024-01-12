@@ -1,8 +1,8 @@
 body {
-  background-color: rgb(88, 131, 224);
+  background-color: #052846;
 }
 .spinner-container {
-  background-color: #289c66;
+  background-color: #044122;
   margin-left: 160px;
   margin-top: 40px;
   margin-bottom: 40px;
@@ -10,7 +10,7 @@ body {
   width: 200px;
   height: 200px;
   border-radius: 50%;
-  border: 5px solid #333;
+  border: 5px solid #fd5353;
   overflow: hidden;
   transition: transform 3s ease-out;
 }
